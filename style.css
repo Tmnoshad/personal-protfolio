@@ -1,0 +1,84 @@
+body {
+    font-family: 'Poppins', sans-serif;
+    margin: 0;
+}
+
+.personal-overview {
+    background-image: url(images/top-banner.png);
+    background-repeat: no-repeat;
+}
+h1 {
+    font-size: 60px;
+    font-weight: 700;
+    margin: 0;
+}
+span {
+    color: orange;
+}
+.welcome {
+    padding-top:100px;
+}
+.display-flex {
+    display: flex;
+}
+.display-half {
+    width: 50%;
+    padding-left: 100px;
+}
+.personal-overview a {
+    background: linear-gradient(45deg,orange,red);
+    padding: 10px 40px;
+    color: white;
+    font-weight: 700;
+    text-decoration: none;
+    border-radius: 10px;
+    margin-top: 20px;
+    display: inline-block;
+}
+
+.mission-right {
+padding-top: 100px;
+margin-right: 10%;
+}
+.mission-right h2 {
+    font-size: 40px;
+}
+.mission-right a {
+    background: linear-gradient(45deg,orange,red);
+    padding: 10px 40px;
+    color: white;
+    font-weight: 700;
+    text-decoration: none;
+    border-radius: 10px;
+    margin-top: 20px;
+    display: inline-block;
+}
+.box-sizing {
+    width: 40%;
+    margin-right: 5%;
+    margin-left: 5%;
+    box-shadow: 10px 10px 30px gray;
+    border-radius: 10px;
+    margin-top: 50px;
+    padding: 50px 0 50px 20px;
+    
+}
+.box-sizing h1 {
+    font-size: 40px;
+}
+
+.experience-box-1 {
+    border-left: 7px solid;
+    border-image: linear-gradient(180deg, orange,red);
+    border-image-slice: 1;
+}
+.experience-box-2 {
+    border-left: 7px solid;
+    border-image: linear-gradient(180deg, #81eaf8,blue);
+    border-image-slice: 1;
+}
+footer {
+    text-align: center;
+    margin-top: 100px;
+    margin-bottom: 20px;
+}
